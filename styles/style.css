@@ -125,3 +125,46 @@ footer {
     padding: 15px 0;
     margin-top: 40px;
 }
+
+/* ==========================
+   About Page Styles
+========================== */
+
+.about-hero {
+    background: url('https://images.unsplash.com/photo-1555949963-aa79dcee981c')
+    center/cover no-repeat;
+}
+
+/* Main About Section */
+.about-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.about-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    border: 1px solid #ddd;
+}
+
+.about-text {
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.sub-heading {
+    margin-top: 25px;
+    margin-bottom: 8px;
+    color: #003366;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team-list {
+    margin-top: 10px;
+    margin-left: 18px;
+    line-height: 1.7;
+}
