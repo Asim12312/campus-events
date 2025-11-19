@@ -168,3 +168,11 @@ footer {
     margin-left: 18px;
     line-height: 1.7;
 }
+.event {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
