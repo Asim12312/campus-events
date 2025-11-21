@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Campus Events</title>
+    <link rel="stylesheet" href="../styles/style.css" />
 </head>
 <body>
-    
+
+    <!-- Navbar - 100% same as index.html and about.html -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Campus Events</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section - same style as other pages -->
+    <section class="hero gallery-hero">
+        <div class="hero-content">
+            <h2>Event Gallery</h2>
+            <p>Relive the best moments from our campus events, workshops, and celebrations</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Memories That Last</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../images/gallery1.jpg" alt="Tech Summit 2025" loading="lazy">
+                    <div class="overlay">Tech Summit Opening Ceremony - Jan 2025</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/gallery2.jpg" alt="Cultural Fest" loading="lazy">
+                    <div class="overlay">Annual Cultural Fest - December 2024</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/gallery3.jpg" alt="Sports Week" loading="lazy">
+                    <div class="overlay">Sports Week Championship - November 2024</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/gallery4.jpg" alt="AI Workshop" loading="lazy">
+                    <div class="overlay">Hands-on AI & ML Workshop - October 2024</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/gallery5.jpg" alt="Career Fair" loading="lazy">
+                    <div class="overlay">Mega Career Fair with 50+ Companies</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/gallery6.jpg" alt="Graduation Ceremony" loading="lazy">
+                    <div class="overlay">Class of 2024 Graduation Ceremony</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - exactly same as other pages -->
+    <footer>
+        <p>© 2025 Campus Event Management | All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
